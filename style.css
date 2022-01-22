@@ -1,0 +1,103 @@
+:root {
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --font-family: "Alegreya Sans", sans-serif;
+  --primery-color: #6c63ff;
+  --text-align: center;
+}
+
+body {
+  font-family: var(--font-family);
+  margin-top: 13vh;
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: 800;
+  font-style: italic;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  text-align: var(--text-align);
+}
+
+h2 {
+  font-size: 55px;
+  text-align: var(--text-align);
+}
+
+h3 {
+  font-size: 50px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+h4 {
+  text-align: var(--text-align);
+  font-size: 26px;
+  margin-top: 0;
+  margin-bottom: 10vh;
+  opacity: 0.7;
+}
+
+/* //---------------index page style */
+.contact-about-section {
+  margin-top: 10vh;
+  text-align: var(--text-align);
+}
+
+.contact-link,
+.about-link,
+.yoga-link,
+.weather-link,
+.yogurt-link {
+  border: 1px solid var(--primery-color);
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 20px 20px 20px 0;
+  padding: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link,
+.yoga-link,
+.weather-link,
+.yogurt-link {
+  background-color: var(--primery-color);
+  box-shadow: var(--box-shadow);
+  color: #fff;
+}
+
+.about-link {
+  background-color: #fff;
+  color: var(--primery-color);
+}
+
+.index-paragraph {
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: justify;
+}
+/* //--------------------about page style */
+
+.about-paragraph {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: -5vh;
+  margin-bottom: 5vh;
+  text-align: justify;
+}
+
+.email-link {
+  font-size: 24px;
+  margin: 1vh;
+  text-align: var(--text-align);
+  text-decoration: none;
+}
+
+.email-link a {
+  color: var(--primery-color);
+  text-decoration: none;
+}
+.email-link :hover {
+  text-decoration: underline;
+}
