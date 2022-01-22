@@ -101,3 +101,41 @@ h4 {
 .email-link :hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 26px;
+    text-align: var(--text-align);
+  }
+  h4 {
+    font-size: 22px;
+    margin: 2vh 2vw 7vh;
+  }
+
+  .contact-about-section {
+    margin-bottom: -5vh;
+  }
+
+  .yoga-link,
+  .weather-link,
+  .yogurt-link {
+    display: block;
+    text-align: var(--text-align);
+    margin: 0 20vw;
+  }
+
+  .index-paragraph {
+    margin: 0 3vw;
+    text-align: var(--text-align);
+  }
+  .about-paragraph {
+    margin: -2vh 4vw 2vh;
+    text-align: var(--text-align);
+  }
+}
